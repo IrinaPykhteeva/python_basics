@@ -14,3 +14,6 @@
 1. раз
 2. перерефриж
 """
+f= input("Введите значение").split()
+        for i,el in enumerate(f,1):
+            print(i, el[0:10])
