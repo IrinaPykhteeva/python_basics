@@ -8,3 +8,15 @@
 Результат через список: Осень
 Результат через словарь: Осень
 """
+ mon=input("Введите номер месяца")
+    if mon=="12" or mon=="1" or mon=="2":
+        print("зима")
+    elif mon=="3" or mon=="4" or mon== "5":
+            print("весна")
+    elif mon=="6" or mon=="7" or mon=="8":
+                print("лето")
+    elif mon=="9" or mon=="10" or mon=="11":
+                    print(осень)
+    else:
+        print("некорректный ввод числа")
+
